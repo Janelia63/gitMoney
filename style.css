@@ -1,4 +1,7 @@
 /* General Layout */
+
+/* HOMEPAGE */
+
 /*makes scroll smooth*/
 html {
   scroll-behavior: smooth;
@@ -41,16 +44,16 @@ body {
 .navbar-brand{
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-
+  background-color:  #F8B195;
 }
 
 .navbar-nav{
   margin-left: 82%;
   font-weight: bold;
+  background-color:  #F8B195;
 }
 
-/* Upper Section of the page which contain the graph */
-
+/* Upper Section of the page */
 
 .top {
   height: 40vh;
@@ -60,28 +63,32 @@ body {
   background-position: center;
   position: relative;
 }
+
 .bottom{
-  background-color: transparent;
+  background-color:  #F8B195;
 }
 
 .budgetTitleValue{
   display: flex;
   flex-direction: column;
 }
+
 .piChartIncomeExpense{
   display: flex;
   flex-direction: row;
   flex-flow: space-evenly;
   width: 700px;
 }
+
 .s{
   display: flex;
-  background: #376E6F;
+  background-color: yellow;
   padding: 12px;
   margin: 10px;
   text-transform: uppercase;
   border-radius: 25px;
 }
+
 .budget {
   position: absolute;
   /* width: 350px; */
@@ -172,7 +179,7 @@ body {
 .add {
   padding: 14px;
   border-bottom: 1px solid #e7e7e7;
-  background-color: #2f4454;
+  background-color:  #F8B195;;
 }
 
 .add__container {
@@ -372,14 +379,14 @@ h2 {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: 0;
   border-radius: 25px;
-  background-color:#2F4454;
+  background-color:#F8B195;
   transition-duration: 0.4s;
   font-size: 12px;
   padding: 12px 15px;
   margin-right: 10px;
 }
 .clear-button:hover {
-    background-color: #1C3334;
+    background-color: #background-color:  #F8B195;;
     color: white;
   }
 .Savings_value{
@@ -401,11 +408,15 @@ h2 {
 
 }
 .footerDiv{
-/*  display: flex;
-  flex-direction: column; */
-  background-color: hsl(2, 92%, 51%);
+  background-color: yellow;
 
 }
 select {
-  width: 400px; text-align-last:center;
+  width: 400px; 
+  text-align-last:center;
+  background-color:  #F8B195;
 }
+
+/* CALCULATOR */
+
+/* CHART */
